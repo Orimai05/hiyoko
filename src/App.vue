@@ -9,13 +9,15 @@
 <script>
 import AppHeader from './components/AppHeader'
 import TopPage from './components/TopPage'
+import register from './components/register'
 
 
 export default {
   name: 'app',
   components: {
     AppHeader,
-    TopPage
+    TopPage,
+    register
   }
 }
 </script>
